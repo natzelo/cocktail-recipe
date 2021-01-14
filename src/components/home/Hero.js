@@ -5,7 +5,7 @@ import bgImg from "../../images/hero-bg.jpg";
 function Hero() {
   return (
     <>
-      <Parallax bgImage={bgImg} strength={200}>
+      <Parallax bgImage={bgImg} strength={500}>
         <div className="hero">
           <Fade bottom>
             <div className="title-wrapper">
