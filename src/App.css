@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: "Spectral", serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero {
+  /* background-image: url("./images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotate {
+  transform: rotate(-6deg);
+}
+
+.hero h1 {
+  text-align: center;
+  line-height: 1.1;
+  margin: 0;
+  font-size: 4.5rem;
+  color: white;
+  font-style: italic;
+  max-width: 941px;
+}
+
+.hero .hollow {
+  font-weight: 700;
+  font-style: italic;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.hero .btn-wrapper {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero button {
+  margin: 40px 10px;
+  padding: 10px 15px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 2px;
+  color: #fff;
+  background-color: #b7472a;
+  border-color: #b7472a;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero .second {
+  background-color: transparent;
+
+  border-color: #fff;
 }
