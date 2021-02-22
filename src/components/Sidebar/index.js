@@ -16,8 +16,8 @@ function Sidebar({ isOpen, toggle }) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about">Home</SidebarLink>
-          <SidebarLink to="about">Search for Cocktail Reciepes</SidebarLink>
+          <SidebarLink to="/">Home</SidebarLink>
+          <SidebarLink to="/search">Search for Cocktail Reciepes</SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

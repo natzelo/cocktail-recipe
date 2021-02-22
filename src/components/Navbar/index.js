@@ -23,10 +23,10 @@ function Navbar({ toggle }) {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="home">HOME</NavLinks>
+              <NavLinks to="/">HOME</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="home">COCKTAIL RECIEPES</NavLinks>
+              <NavLinks to="/search">COCKTAIL RECIEPES</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
